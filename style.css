@@ -59,7 +59,7 @@ ul, ol li::marker {
 h3, h4, h5 {
     font-size: 30px;
     margin-left: 20px;
-    padding-bottom: 10px;
+    padding-top: 10px;
 }
 td {
     padding-left: 90%;
