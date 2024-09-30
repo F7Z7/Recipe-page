@@ -1,17 +1,43 @@
 * {
-    background-color: #333333;
 
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    box-sizing: border-box;
 }
 
 body {
     background-color: black;
     box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+
+
+
 }
 
-#pfp {
+.pfp {
 
     display: grid;
     place-items: center;
+
+
+}
+
+.pfp img {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+
+
 }
 
 .name h1 {
@@ -40,29 +66,33 @@ body {
     align-items: center;
     width: 370px;
     height: auto;
-
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 #links {
     background-color: #1f1f1f;
-    display: grid;
-    place-content: center;
-    align-items: center;
-    width: 370px;
+    width: 100%;
     height: auto;
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .profiles a {
-    background-color: #333333; /* Gray background color */
-    border: 2px solid black; /* Solid black border */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px; /* Padding inside each paragraph */
-    margin-bottom: 10px; /* Space between paragraphs */
-    text-align: center; /* Center the text inside the paragraphs */
+    background-color: #333333;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
     cursor: pointer;
-    width: 80%;
-    margin-left: 1rem;
-    margin-right: 15rem;
+    width: 100%;
     color: white;
     text-decoration: none;
 
@@ -72,5 +102,9 @@ body {
     background-color: #c5f82a;
 }
 
-
+.attribution {
+    opacity: 0.5;
+    font-size: 12px;
+    margin-top: 20px;
+}
 
